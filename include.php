@@ -28,3 +28,5 @@
 <link type="text/css" rel="stylesheet" href="<?= RAPTOR_DEPENDENCIES_URI; ?>jquery-pnotify.css" />
 
 <script type="text/javascript" src="<?= RAPTOR_DEPENDENCIES_URI; ?>diff.js"></script>
+
+<script type="text/javascript" src="<?= RAPTOR_DEPENDENCIES_URI; ?>pixastic.custom.js"></script>
