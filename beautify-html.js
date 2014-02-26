@@ -38,6 +38,8 @@ function style_html(html) {
             if (parts[0].match(/^(img|hr|br)/)) {
                 indentLevel--;
             }
+        } else {
+            result += getIndent(indentLevel) + parts[0] + "\n";
         }
     }
     return result;
