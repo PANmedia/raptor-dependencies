@@ -96,3 +96,13 @@ builder.addModule({
         __dirname + '/classlist.js',
     ]
 });
+
+builder.addModule({
+    name: 'Pixastic',
+    type: 'library',
+    link: 'http://www.pixastic.com/',
+    hidden: true,
+    files: [
+        __dirname + '/pixastic.custom.js',
+    ]
+});
